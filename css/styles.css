@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid   {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/19406392.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pkm1,#pkm2,#astronaut{
+    width: 70%;
+    border: 1px solid transparent;
+}
+#ptext1, #ptext2{
+    text-transform: uppercase;
+}
+.card{
+    background-color: #CFCFCF;
+}
+.card-title{
+    color: #ffffff;
+    text-align: center;
+}
+.navbar{
+    opacity: 0.7;
+}
+.border{
+    border-style: solid;
+    box-shadow: 2px 2px 10px 5px #000000;
+}
+#astronaut{
+    display: flex;
+    justify-content: center;
+}
